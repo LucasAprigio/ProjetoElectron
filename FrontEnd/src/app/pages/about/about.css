@@ -1,0 +1,19 @@
+body{
+    padding: 40px 80px;
+}
+
+main{
+    background-color: #D3D3D3;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+main img{
+    width: 300px;
+}
+
+main p{
+    text-align: justify;
+    padding: 20px;
+}

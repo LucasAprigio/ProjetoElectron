@@ -1,0 +1,42 @@
+#menu{
+    list-style-type: none;
+    background-color: #333;
+}
+
+#menu li{
+    display: inline-block;
+    position: relative;
+}
+
+#menu li a{
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu li:hover > a{
+    background-color: #555;
+}
+
+#menu li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #555;
+    padding: 0;
+}
+
+#menu li:hover > ul{
+    display: block;
+}
+
+#menu li ul li{
+    display: block;
+}
+
+#menu li ul li a{
+    padding: 10px 20px;
+}
